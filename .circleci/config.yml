@@ -26,4 +26,6 @@ jobs:
       # specify any bash command here prefixed with `run: `
       - run: go get -d ./...
       - run: go get "github.com/gin-gonic/gin"
+      - run: go get "github.com/onsi/ginkgo"
+      - run: go get "github.com/onsi/gomega"
       - run: cd server && go test .
