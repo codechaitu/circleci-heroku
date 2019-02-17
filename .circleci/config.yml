@@ -9,7 +9,7 @@ jobs:
     - image: circleci/golang:1.11.1
 
     # directory where steps are run. Path must conform to the Go Workspace requirements
-    working_directory: /go/src/github.com/tempo-nksn/tempProject
+    working_directory: /go/src/github.com/codechaitu/circleci-heroku
     # check out source code to working directory
     - checkout
 
