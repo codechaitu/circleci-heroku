@@ -7,6 +7,7 @@ import (
 	"os"
 	"os/signal"
 	"time"
+	"fmt"
 
 	"github.com/gin-gonic/gin"
 )
@@ -21,11 +22,13 @@ func CreateRouter() *gin.Engine {
 // StartServer starts given server, supporting graceful shutdown of the server
 func StartServer(router *gin.Engine) {
 	port := os.Getenv("PORT")
+
 	if port == "" {
-		port = ":8080"
+		port = "8080"
 	}
+	fmt.Println(port)
 	srv := &http.Server{
-		Addr:    port,
+		Addr:    ":"+port,
 		Handler: router,
 	}
 

@@ -1,1 +1,0 @@
-web: circleci-heroku $PORT
