@@ -3,16 +3,16 @@
 	"ignore": "test",
 	"package": [
 		{
-			"checksumSHA1": "TLyxqLDtTRp2WAHQFOMA97dul6Q=",
+			"checksumSHA1": "aCCY9aLUmYGC77EhnkiXqPrkOpY=",
 			"path": "circleci-heroku",
-			"revision": "09daebd2dddfb450d4c467bff51c7d507cf2119d",
-			"revisionTime": "2019-02-17T11:33:24Z"
+			"revision": "6819c3133f73ea342e59212fef362979c97ec2c9",
+			"revisionTime": "2019-02-17T12:47:48Z"
 		},
 		{
-			"checksumSHA1": "5S4Dl4xR1E1Zau04uSNB6A6plIE=",
+			"checksumSHA1": "mqZe6Zw0n36UtnBf+FKlNhTGBX0=",
 			"path": "circleci-heroku/server",
-			"revision": "09daebd2dddfb450d4c467bff51c7d507cf2119d",
-			"revisionTime": "2019-02-17T11:33:24Z"
+			"revision": "6819c3133f73ea342e59212fef362979c97ec2c9",
+			"revisionTime": "2019-02-17T12:47:48Z"
 		},
 		{
 			"checksumSHA1": "0oZdvDDAy6ioJuNyxKHhwzPUpiM=",
