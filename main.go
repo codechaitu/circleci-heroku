@@ -1,6 +1,6 @@
 package main
 
-import "circleci/server"
+import "circleci-heroku/server"
 
 func main() {
 	router := server.CreateRouter()
