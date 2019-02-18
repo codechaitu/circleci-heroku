@@ -36,7 +36,7 @@ var _ = Describe("Server", func() {
 				Expect(response.Code).To(Equal(200))
 			})
 
-			It("Returns the String 'Hello World'", func() {
+			It("Returns the String 'User, you will be dropped soon.'", func() {
 				Expect(response.Body.String()).To(Equal("User, you will be dropped soon."))
 			})
 		})
