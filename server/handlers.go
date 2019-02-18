@@ -7,5 +7,5 @@ import (
 
 func hello(c *gin.Context) {
 	fmt.Println("user taxi")
-	c.String(200, "User, new change.")
+	c.String(200, "User, new change, good")
 }
