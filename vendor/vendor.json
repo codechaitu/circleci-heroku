@@ -3,22 +3,16 @@
 	"ignore": "test",
 	"package": [
 		{
-			"checksumSHA1": "zPKA23S7pSd8aQjMXzFsmLwYgKw=",
+			"checksumSHA1": "GQ/sfjlRPwxfMLvIHoI1uI7XsDQ=",
 			"path": "circleci-heroku",
-			"revision": "657bc5364af4c6111e9e1735f12b6fbfca504e0f",
-			"revisionTime": "2019-02-18T01:48:25Z"
+			"revision": "8773a163b5be51fde4a873f8ae26f9a538cae4c5",
+			"revisionTime": "2019-02-18T01:57:48Z"
 		},
 		{
-			"checksumSHA1": "fs9iOy2c2e/RdbA5Vm4NhesT+JM=",
+			"checksumSHA1": "+6eF1A9IAwoOUcHIuZ1tFdh5zBI=",
 			"path": "circleci-heroku/server",
-			"revision": "657bc5364af4c6111e9e1735f12b6fbfca504e0f",
-			"revisionTime": "2019-02-18T01:48:25Z"
-		},
-		{
-			"checksumSHA1": "EHU5gXbxRmt41SJAbXjxbdNllmc=",
-			"path": "github.com/codechaitu/circleci-heroku/server",
-			"revision": "05ff7d9a3b34a20392297b81a19328173e23f4ae",
-			"revisionTime": "2019-02-18T01:34:38Z"
+			"revision": "8773a163b5be51fde4a873f8ae26f9a538cae4c5",
+			"revisionTime": "2019-02-18T01:57:48Z"
 		},
 		{
 			"checksumSHA1": "QeKwBtN2df+j+4stw3bQJ6yO4EY=",
