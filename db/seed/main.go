@@ -9,14 +9,14 @@ import (
 	"github.com/codechaitu/circleci-heroku/models"
 
 	"github.com/jinzhu/gorm"
-	_ "github.com/jinzhu/gorm/dialects/sqlite"
+ _ "github.com/jinzhu/gorm/dialects/postgres"
 )
 
 func main() {
 	var taxis []models.Taxi
 
 	getData("data/taxis.json", &taxis)
-	database, err := gorm.Open("sqlite3", "database.db")
+	database, err := gorm.Open("postgres", os.Getenv("DATABASE_URL"))
 	if err != nil {
 		panic("failed to establish database connection")
 	}

@@ -2,7 +2,7 @@ package db
 
 import (
 	"github.com/jinzhu/gorm"
-	"github.com/tempo-nksn/Tempo-Backend/models"
+	"github.com/codechaitu/circleci-heroku/models"
 )
 
 // DB is the database connection

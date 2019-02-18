@@ -1,0 +1,12 @@
+[
+  {
+    "taxinum": 1,
+    "numOfTravellers": 2,
+    "taxiCapacity": 4
+  },
+  {
+    "taxinum": 2,
+    "numOfTravellers": 1,
+    "taxiCapacity": 2
+  }
+]
