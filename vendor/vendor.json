@@ -5,14 +5,14 @@
 		{
 			"checksumSHA1": "gR+Ey8tLGStW2SCElrxMxzUfAPA=",
 			"path": "circleci-heroku",
-			"revision": "fbd673ab693ab6dd6729ef2075c2a3f9440a96b3",
-			"revisionTime": "2019-02-17T14:03:33Z"
+			"revision": "eaea7b6be8ced76cdb467d39dafcd0f0b72fa9c6",
+			"revisionTime": "2019-02-18T01:25:53Z"
 		},
 		{
-			"checksumSHA1": "cEqi0mC3vcOwdaK1kvB/ASZB6B0=",
+			"checksumSHA1": "jIAOl2J+8b3nf0343o92LFyyt2w=",
 			"path": "circleci-heroku/server",
-			"revision": "fbd673ab693ab6dd6729ef2075c2a3f9440a96b3",
-			"revisionTime": "2019-02-17T14:03:33Z"
+			"revision": "eaea7b6be8ced76cdb467d39dafcd0f0b72fa9c6",
+			"revisionTime": "2019-02-18T01:25:53Z"
 		},
 		{
 			"checksumSHA1": "5BbkEU/ZWhv9jc8FPUTLNy838gQ=",
