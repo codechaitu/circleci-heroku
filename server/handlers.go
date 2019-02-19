@@ -27,6 +27,6 @@ func getFromDB(c *gin.Context){
 
 	db := getDB(c)
 	var taxi models.Taxi
-	db.Where("taxinum = ?", id).Find(&taxi)
+	db.Where("TaxiNo = ?", id).Find(&taxi)
 	c.JSON(200, taxi)
 }
