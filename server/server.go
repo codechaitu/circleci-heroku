@@ -2,6 +2,7 @@ package server
 
 import (
 	"context"
+	"github.com/jinzhu/gorm"
 	"log"
 	"net/http"
 	"os"
@@ -13,8 +14,9 @@ import (
 )
 
 // CreateRouter creates and configures a server
-func CreateRouter() *gin.Engine {
+func CreateRouter(db *gorm.DB) *gin.Engine {
 	router := gin.Default()
+	router.Use(DB(db))
 	setupRoutes(router)
 	return router
 }

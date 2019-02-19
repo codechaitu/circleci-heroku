@@ -20,6 +20,6 @@ func main() {
 	defer database.Close()
 	db.Init(database)
 
-	router := server.CreateRouter()
+	router := server.CreateRouter(database)
 	server.StartServer(router)
 }
