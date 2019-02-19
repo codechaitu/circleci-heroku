@@ -1,12 +1,12 @@
 [
   {
     "TaxiNo": 1,
-    "NumOfTravellers": 2,
+    "NumTravellers": 2,
     "TaxiCapacity": 4
   },
   {
     "TaxiNo": 2,
-    "NumOfTravellers": 1,
-    "TaxiCapacity": 2
+    "NumTravellers": 1,
+    "TaxiCapacity": 3
   }
 ]
