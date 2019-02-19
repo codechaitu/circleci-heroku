@@ -8,7 +8,7 @@ type Location struct {
 // Creating a structure for Taxi
 type Taxi struct {
 	TaxiNo                  int `gorm:"primary_key"` // Unique identification of taxi
-	NumOfTravellers int `json:"numOfTravellers"` // At present how many number of passengers in taxi
+	NumOfTravellers 		int `json:"numOfTravellers"` // At present how many number of passengers in taxi
 	TaxiCapacity            int `json:"taxiCapacity"` // Maximum number of travellers can travel at once
 
 }
