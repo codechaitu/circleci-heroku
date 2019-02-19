@@ -3,18 +3,14 @@ package server
 import (
 	"fmt"
 	"github.com/codechaitu/circleci-heroku/models"
+	"github.com/codechaitu/circleci-heroku/constants"
 	"github.com/gin-gonic/gin"
 	"github.com/jinzhu/gorm"
-	"os"
 	"strconv"
 )
 
 func getDB(c *gin.Context) *gorm.DB {
-	db, err := gorm.Open("postgres", os.Getenv("DATABASE_URL"))
-	if err !=nil{
-		fmt.Println("error in getDB: ", err)
-	}
-	return db
+	return c.MustGet(constants.ContextDB).(*gorm.DB)
 }
 
 func hello(c *gin.Context) {

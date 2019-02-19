@@ -1,11 +1,11 @@
 [
   {
-    "taxinum": 1,
+    "TaxiNo": 1,
     "numOfTravellers": 2,
     "taxiCapacity": 4
   },
   {
-    "taxinum": 2,
+    "TaxiNo": 2,
     "numOfTravellers": 1,
     "taxiCapacity": 2
   }

@@ -16,7 +16,7 @@ func main() {
 	var taxis []models.Taxi
 
 	getData("data/taxis.json", &taxis)
-	database, err := gorm.Open("postgres", os.Getenv("DATABASE_URL"))
+	database, err := gorm.Open("postgres", "postgres://czzunqplhnfsbr:5e7afbe690b47e5e10138fb64d68630e5e8f3dd77c672a2cfd78dd7ff0bdc521@ec2-107-20-167-11.compute-1.amazonaws.com:5432/d35alq6mfcq8or")
 	if err != nil {
 		panic("failed to establish database connection")
 	}
